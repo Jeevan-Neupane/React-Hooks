@@ -9,7 +9,7 @@ function Counter() {
 
   return (
     <div>
-        <button className="button is-success" onClick={handleClick}>Count {count}</button>
+        <button onClick={handleClick}>Count {count}</button>
       
     </div>
   )
