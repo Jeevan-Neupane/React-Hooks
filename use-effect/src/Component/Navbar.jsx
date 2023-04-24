@@ -23,6 +23,15 @@ function Navbar() {
           <li>
             <NavLink style={changeColor} to='mouse-position' >MouseContainer</NavLink>
           </li>
+          <li>
+            <NavLink style={changeColor} to='data-fetch' >Data Fetching</NavLink>
+          </li>
+          <li>
+            <NavLink style={changeColor} to='single-data-fetch' >Single Data Fetching</NavLink>
+          </li>
+          <li>
+            <NavLink style={changeColor} to='button-click-data-fetch' >Button Data Fetching</NavLink>
+          </li>
         </ul>
       </div>
       

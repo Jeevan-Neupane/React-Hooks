@@ -8,7 +8,7 @@ function UpdateTitle() {
     }
    useEffect(()=>{
     document.title=`You Click ${count} times`;
-   },[])
+   })
 
   return (
     <div className="h-full flex items-center justify-center">
